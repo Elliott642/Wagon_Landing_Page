@@ -1,0 +1,105 @@
+/* style.css */
+body {
+  font-family: 'Noto Serif', serif;
+  color: rgb(50,50,50);
+  font-size: 0.7em;
+}
+
+h1, h2, h3{
+  font-family: Chivo;
+}
+
+a {
+  color: #1A48E3;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+}
+
+p {
+  color: rgb(10, 10, 10);
+  opacity: .9;
+  line-height: 4;
+  font-size: 1.3em;
+}
+
+.banner {
+  background-color: rgb(200, 20, 20);
+  color: white;
+  margin: 20 px;
+  padding: 40px;
+  padding: 4em 0;
+  text-align: center;
+  border-radius: 5%;
+}
+.banner h1 {
+  color: white;
+  font-size: 7em;
+  margin: 0;
+}  
+ 
+
+.button-blue {
+  background-color: rgb(20, 20, 20);
+  color: white;
+  margin: 200px;
+  padding: 15px;
+  border-radius: 20%;
+} 
+
+.the-story {
+  color: rgb(20, 20, 20);
+  text-align: center;
+  font-size: 2.5em;
+  margin: 1em;
+  padding: 0.2em;
+} 
+
+.card-white 
+  img{
+  	width: 40em;
+  	height: 40em;
+  	object-fit: cover;
+  	border-radius: 20%;
+  	box-shadow: 10px 10px 10px rgb(10, 10, 10);
+  }
+
+.card-white{
+	text-align: center;
+  	padding: 0.2em;
+  	border-radius: 5%;
+  	margin: 1em;
+  	line-height: 3;
+  	border: 0.5px solid black;
+  	box-shadow: 5px 5px 5px rgb(40, 40, 40);
+}
+
+.cards {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 0.5em;
+}
+
+
+.footer {
+  background: rgb(175, 175, 175);
+  text-align: center;
+  color: black;
+  padding: 0.8em 1em ;
+} 
+
+.container {
+ width : 800px
+ margin: auto;
+} 
+
+ @media screen and (min-width: 1080px) {
+  body {
+  	/* any variable set only if 
+  	the display width is largert than 1080 pixels */
+}
+
+a:hover {
+  color: #CE2FAE;
+}
+/* Write some CSS below */
